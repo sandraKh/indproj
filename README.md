@@ -35,9 +35,14 @@ service firebase.storage {
 }
 ```
 
+To run the app you need to connect either an android-phone to the computer or install an android emulator. 
+
+You can check out this link for more information about how to install an android emulator: https://developer.android.com/studio/run/emulator
+
+
 # Demo
 
 
 A demo of the app is found here:
 
-https://drive.google.com/file/d/13cneQFrXeggFHl2Kkr4w2_4kU9zEqvK0/view?usp=sharing 
+https://drive.google.com/file/d/15hNHbgn1ma8cX_bEWrioAqsgiy4-CsmX/view?usp=sharing
