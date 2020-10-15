@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:backgroundTint="@color/design_default_color_surface"
+    tools:context="com.codinginflow.firebaseuploadexample.MainActivity">
+
+    <FrameLayout
+
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:menu="@menu/menu_navigation" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_note"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toTopOf="@+id/add_fab"
+        app:layout_constraintEnd_toEndOf="@+id/add_fab"
+        app:layout_constraintStart_toStartOf="@+id/add_fab"
+        app:srcCompat="@drawable/ic_baseline_notes_24" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="92dp"
+        android:src="@drawable/ic_baseline_add_24"
+        app:fabSize="normal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toTopOf="@+id/add_note"
+        app:layout_constraintEnd_toEndOf="@+id/add_note"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/add_note"
+        app:srcCompat="@drawable/ic_baseline_image" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toTopOf="@+id/add_image"
+        app:layout_constraintEnd_toEndOf="@+id/add_image"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/add_image"
+        app:srcCompat="@drawable/ic_baseline_keyboard_voice_24" />
+
+    <TextView
+        android:id="@+id/add_note_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Add Note"
+        app:layout_constraintBottom_toBottomOf="@+id/add_note"
+        app:layout_constraintEnd_toStartOf="@+id/add_note"
+        app:layout_constraintTop_toTopOf="@+id/add_note" />
+
+
+    <TextView
+        android:id="@+id/add_image_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Add Image"
+        app:layout_constraintBottom_toBottomOf="@+id/add_image"
+        app:layout_constraintEnd_toStartOf="@+id/add_image"
+        app:layout_constraintTop_toTopOf="@+id/add_image" />
+
+    <TextView
+        android:id="@+id/add_audio_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Add Audio"
+        app:layout_constraintBottom_toBottomOf="@+id/add_audio"
+        app:layout_constraintEnd_toStartOf="@+id/add_audio"
+        app:layout_constraintTop_toTopOf="@+id/add_audio" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="366dp"
+        android:layout_height="307dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:src="@mipmap/ic_idea_foreground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.214" />
+
+    <ImageButton
+        android:id="@+id/profile_btn"
+        android:layout_width="88dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#FFFFFF"
+        android:src="@mipmap/account_foreground"
+        android:tint="#00FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

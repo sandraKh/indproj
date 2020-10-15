@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline"
+        />
+
+    <item
+        android:id="@+id/shownotes"
+        android:title="Notes"
+        android:icon="@drawable/ic_baseline_notes_24"/>
+
+    <item
+        android:id="@+id/showimages"
+        android:title="Images"
+        android:icon="@drawable/ic_baseline_image"
+        />
+
+    <item
+        android:id="@+id/showaudio"
+        android:title="Audio"
+        android:icon="@drawable/ic_baseline_keyboard_voice_24"
+        />
+</menu>

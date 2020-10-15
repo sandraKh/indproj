@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "555821142771",
+    "firebase_url": "https://ideaorganizer-22901.firebaseio.com",
+    "project_id": "ideaorganizer-22901",
+    "storage_bucket": "ideaorganizer-22901.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555821142771:android:f483d74e1c403f236a5d86",
+        "android_client_info": {
+          "package_name": "com.example.ideaorganizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555821142771-sio038q1ho9mau5pc2dq03sqfavaqm9b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ideaorganizer",
+            "certificate_hash": "9c1e24267dc1127e73729a2e6f9ef501cfa94905"
+          }
+        },
+        {
+          "client_id": "555821142771-r75qbh9qku8asepv6u07h0i1m764s1pu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOgt754fcF8dxauoDPBP_XTHSNhMsg8qM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555821142771-r75qbh9qku8asepv6u07h0i1m764s1pu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
